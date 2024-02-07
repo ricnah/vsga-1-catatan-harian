@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertAndViewActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtNamaFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_file"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/editFileName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:padding="5dp"
+            android:textSize="14sp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/txtCatatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/catatan"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/editContent"
+            android:layout_width="match_parent"
+            android:layout_height="407dp"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:background="#E6DFDF"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:gravity="top"
+            />
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/simpan"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:onClick="onClick"/>
+    </LinearLayout>
+</LinearLayout>

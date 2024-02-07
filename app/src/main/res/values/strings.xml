@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Catatan</string>
+    <string name="project_1">TUGAS 1</string>
+    <string name="aplikasi_catatan_harian">Catatan Harian</string>
+    <string name="tambah">Tambah</string>
+    <string name="nama_file">Nama File :</string>
+    <string name="catatan">Catatan :</string>
+    <string name="simpan">Simpan</string>
+</resources>
